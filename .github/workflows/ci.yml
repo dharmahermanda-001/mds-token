@@ -4,7 +4,7 @@ on:
   push:
     paths:
       - "tokens/tokens.json"
-      - "packages/fmi_core/**"
+      #- "packages/fmi_core/**"
   workflow_dispatch:
 
 jobs:
